@@ -1,0 +1,115 @@
+@media screen and (max-width:1023px){
+    .burger-button{
+        display: block;
+    }
+    .header-logo-container{
+        width: 30%;
+    }
+    .filter-bar{
+        padding: 0;
+        flex-direction: column;
+        z-index: 3;
+        top: 0;
+        left: -100vw;
+        width: 100vw;
+        height: 50vh;
+        position: fixed;
+        background-color: rgba(254, 156, 89,.9);
+        transition: 0.3s;
+    }
+    .filter-input{
+        width: 50%;
+    }
+
+    .filter-bar.is-active{
+        left: 0;
+    }
+<<<<<<< HEAD
+    .info-bar{
+        width: 100px;
+    }
+    .icons-details{
+        margin: 0;
+    }
+=======
+
+
+>>>>>>> b4bcc436877f466e2b0ff38e2725a4d9fb29d8f2
+}
+
+@media screen and (max-width:767px){
+    .header-main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-logo-container{
+        width: 40%;
+        padding: 0;
+    }
+
+    .header-menu-container{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .menu-item{
+        text-align: center;
+        margin: 0;
+    }
+
+    .info-bar{
+<<<<<<< HEAD
+        display: none;
+=======
+        height: 120px;
+        display: block;
+        text-align: left;
+        right: -140px;
+        background-color: rgba(254, 156, 89,.9);
+        transition: 0.3s;
+>>>>>>> b4bcc436877f466e2b0ff38e2725a4d9fb29d8f2
+    }
+    .info-button{
+        display: block;
+    }
+<<<<<<< HEAD
+=======
+    .info-bar.is-active{
+        right: 0;
+    }
+>>>>>>> b4bcc436877f466e2b0ff38e2725a4d9fb29d8f2
+}
+
+@media screen and (max-width:479px){
+    .header-logo-container{
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .header-menu-container{
+        margin-top: 10px;
+    }
+
+    .menu-item{
+        font-size: 14px;
+    }
+
+    footer p{
+        font-size: 14px;
+    }
+
+    .filter-input{
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width:319px){
+    
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> b4bcc436877f466e2b0ff38e2725a4d9fb29d8f2
